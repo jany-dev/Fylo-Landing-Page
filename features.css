@@ -1,0 +1,29 @@
+/* Features */
+
+.features{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-gap:6%;
+    text-align: center;
+    width: 100%;
+    padding-top: 50%;
+}
+
+.feature-1, .feature-2, .feature-3, .feature-4{
+    padding: 6%;
+}
+
+.features p{
+    padding: 0;
+    margin: 0;
+    width:99%;
+    color: white;
+}
+
+.features h2{
+    color: white;
+}
+.feature-4{
+    padding-bottom: 91%;
+}
+

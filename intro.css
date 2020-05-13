@@ -1,0 +1,33 @@
+
+/*Intro*/
+
+.intro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    padding-top: 8%;
+}
+
+.intro-image{
+    width: 90%;
+    position: relative;
+    top: 40px;
+    z-index: 2;
+
+}
+
+.intro-curvy-image{
+    width: 100%;
+    z-index: 1;
+    padding-bottom: -23%;
+
+}
+.intro h1{
+    margin-top: -17%;
+    z-index: 2;
+}
+.intro p{
+    width: 85%;
+}
+

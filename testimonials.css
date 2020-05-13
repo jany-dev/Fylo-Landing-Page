@@ -1,0 +1,70 @@
+
+/*Testimonials*/
+.testimonials{
+    padding-top: 50%;
+    display: flex;
+    flex-direction: column;   
+}
+
+.quote-image{
+    position: absolute;
+    left: 36px;
+    height: 3%;
+}
+.testimonial-profiles{
+    border-radius: 5px;
+    position: relative;
+    padding: 2% 8% 36% 8%;
+}
+.testimonial-profile-desc{
+    font-size: 11px;
+    text-align: left;
+    color: white;
+    padding: 22px 22px 0px 20px;
+}
+.profile-pic{
+    height: 40px;
+    border-radius: 48%;
+    margin-right: 8px;
+}
+
+.testimonial-profile-name{
+    color: white;
+    font-weight: 700;
+    padding-left: 19px;
+    text-align: left;
+    padding-left: 1px;
+}
+
+.profile-pic{
+    margin-left: 22px;
+}
+
+.testimonial-profile-1, .testimonial-profile-2, .testimonial-profile-3{
+    background-color: hsl(219, 30%, 18%);
+    border-radius: 3px;
+    margin-bottom: 13%;
+    box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 0px 19px 0 rgba(0, 0, 0, 0.1);
+
+
+}
+
+span.testimonial-profile-job{
+    font-size: 10px;
+    font-weight: 400;
+}
+
+
+.profile-pic, .testimonial-profile-name, span.testimonial-profile-job{
+    display: inline-block;
+    
+}
+
+
+.testimonial-profiles{
+    letter-spacing: 0.5px;
+}
+/*
+.testimonials, .stay-productive, .features{
+    background-color: hsl(216, 53%, 9%);
+}
