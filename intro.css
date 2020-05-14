@@ -1,4 +1,59 @@
 
+.intro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    padding-top: 8%;
+    text-align: center;
+    position: relative;
+
+}
+.intro h1{
+   line-height: 4rem;
+   z-index: 2;
+   width: 62%;
+}
+
+.intro-image{
+    width: 62%;
+    position: relative;
+    z-index: 2;
+    margin-bottom: 2%;
+}
+
+
+.intro-curvy-image{
+    width: 100%;
+    z-index: 1;
+    padding-bottom: -23%;
+    top: 77%;
+}
+
+
+
+
+.intro h1{
+    z-index: 2;
+    width: 74%;
+}
+
+        
+.intro p {
+    z-index: 2;
+    margin-top: 0;
+    margin-bottom: 2%;
+    width: 37%;
+    font-size: 21px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    text-align: center;
+    line-height: 1.5rem;
+}
+
+
+@media only screen and (max-width: 375px) {
+
 /*Intro*/
 
 .intro{
