@@ -1,5 +1,55 @@
 
-   body{
+  @media (min-width: 1400px){
+  .jumbotron{
+      padding: 0;
+  }
+
+  h1{
+    font-size: 42px;
+    margin-bottom: 1rem;
+  }
+
+
+  .btn {
+    z-index: 2;
+    border-radius: 28px;
+    font-weight: 700;
+    cursor: pointer;
+    border: none;
+    background-image: linear-gradient(90deg, hsl(176, 68%, 64%),hsl(198, 60%, 50%));
+    width: 66%;
+}
+  
+@media (max-width: 575.98px){
+    .btn {
+        z-index: 2;
+        border-radius: 28px;
+        font-weight: 700;
+        cursor: pointer;
+        border: none;
+        background-image: linear-gradient(90deg, hsl(176, 68%, 64%),hsl(198, 60%, 50%));
+        width: 66%;
+    }
+
+    .btn-primary {
+        background-image: linear-gradient(90deg, hsl(176, 68%, 64%),hsl(198, 60%, 50%));
+        width: 66%;
+    }
+
+    h1{
+        font-size: 27px;
+      }
+    
+      p{
+          margin-bottom: 1.5rem;
+      }
+
+      h5{
+          margin-top: 2%;
+      }
+      
+      
+  /*body{
     width: 100%;
     flex-direction: column;
     align-items: center;
@@ -11,7 +61,6 @@
         font-family: 'Raleway', sans-serif;
     text-align: center;
     line-height: 4rem;
-    font-size: 42px;
     
 }
 
@@ -28,7 +77,7 @@
     
     button{
         z-index: 2;
-        /* height: 48%; */
+        /* height: 48%; 
         padding: auto;
         padding: 1%;
         width: 23%;

@@ -1,3 +1,16 @@
+@media (min-width: 1400px){
+    .stay-productive-image{
+        width: 60%;
+    }
+@media (max-width: 575.98px) {
+    .stay-productive{
+        overflow: hidden;
+    }
+    .stay-productive-image{
+width: 90%;
+    }
+
+/*
 s.tay-productive-image{
     width:62%;
 }

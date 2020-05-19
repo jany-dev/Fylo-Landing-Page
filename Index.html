@@ -4,21 +4,107 @@
     <meta charset="utf-8">
     <title>Flyo </title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="nav.css">
     <link rel="stylesheet" href="intro.css">
     <link rel="stylesheet" href="features.css">
     <link rel="stylesheet" href="stay-productive.css">
+    <!---   
+    <link rel="stylesheet" href="nav.css">
+    
+    
+    
     <link rel="stylesheet" href="testimonials.css">
     <link rel="stylesheet" href="early-access.css">
-    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="footer.css"> -->
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <a class="navbar-brand" href="#">
+            <img src="fylo-assests/images/logo.svg">
+        </a>
 
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
+            aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse">
+
+            <ul class="navbar-nav ml-auto">
+                <li><a class="nav-link" href="#">Features</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Team</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Sign In</a>
+                </li>
+            </ul>
+
+        </div>
+    </nav>
+    <div class="jumbotron mb-5 pb-5" class="mx-auto">
+        <!---- <div class="container">-->
+        <img src="fylo-assests/images/illustration-intro.png" class="intro-image" class="mx-auto">
+        <div class="intro-text">
+            <h1>All your files in one secure location, accessible anywhere.</h1>
+            <p>Flyo stores all your most important files in one secure location. Access them wherever you need, share
+                and
+                collaborate with friends, family and co-workers.</p>
+            <p><a class="btn btn-primary btn-lg" href="#" role="button">Get Started</a></p>
+        </div>
+        <img src="fylo-assests/images/bg-curvy-desktop.svg" class="intro-curvy-image-desktop" class="mx-auto">
+        <img src="fylo-assests/images/bg-curvy-mobile.svg" class="intro-curvy-image-mobile" class="mx-auto">
+    </div>
+
+<div class="container text-center mt-5 pt-5" class="features">
+    <img src="fylo-assests/images/icon-access-anywhere.svg" id="feature-image" alt="Feature-image">
+    <div class="feature-body">
+        <h5 class="mt-5 mb-2">Access your files, anywhere</h5>
+        <p class="mb-5 pb-5">The ability to use a smartphone, tablet, or computer to access your
+            account means your files follow you
+            everywhere.</p>
+    </div>
+
+
+    <img src="fylo-assests/images/icon-security.svg" id="feature-image" alt="Feature-image">
+    <div class="feature-body">
+        <h5 class="mt-5 mb-2">Access your files, anywhere</h5>
+        <p class="mb-5 pb-5">The ability to use a smartphone, tablet, or computer to access your
+            account means your files follow you
+            everywhere.</p>
+    </div>
+
+    <img src="fylo-assests/images/icon-collaboration.svg" id="feature-image" alt="Feature-image">
+    <div class="feature-body">
+        <h5 class="mt-5 mb-2">Access your files, anywhere</h5>
+        <p class="mb-5 pb-5">The ability to use a smartphone, tablet, or computer to access your
+            account means your files follow you
+            everywhere.</p>
+    </div>
+
+    <img src="fylo-assests/images/icon-any-file.svg" id="feature-image" alt="Feature-image">
+    <div class="feature-body">
+        <h5 class="mt-5 mb-2">Access your files, anywhere</h5>
+        <p class="mb-5 pb-5">The ability to use a smartphone, tablet, or computer to access your
+            account means your files follow you
+            everywhere.</p>
+    </div>
+
+<div class="stay-productive">
+<div class="container">
+    <img src="fylo-assests/images/illustration-stay-productive.png" class="img-fluid" class="stay-productive-image" >
+</div>
+</div>
+    
+
+    <!---
     <div class="navbar">
         <div class="resonsive-nav">
         <img src="fylo-assests/images/logo.svg" class="logo">
@@ -128,17 +214,20 @@
     </div>
 
     <div class="early-access">
-        <h2>Get early access today</h2>
-        <p>It only takes a minute to sign up and our free starter tier is extremely generous.
-            If you have any questions, our support team would be happy to help you</p>
-            <div class="early-access-bottom">
-        <form>
-            <input type="text" class="fname" name="fname" placeholder="email@example.com">
-        </form>
-        <button><a href="#">Get Started For Free</a></button>
-    </div>
-    </div>
+       <div class="early-access-top">
+            <h2>Get early access today</h2>
+            <p>It only takes a minute to sign up and our free starter tier is extremely generous.
+                If you have any questions, our support team would be happy to help you</p>
+        
 
+       <div class="early-access-bottom"> 
+            <form>
+                <input type="text" class="fname" name="fname" placeholder="email@example.com">
+            </form>
+            <button><a href="#">Get Started For Free</a></button>
+        </div>
+    </div>
+    
     <div class="footer">
         <img src="fylo-assests/images/logo.svg" class="logo">
         <div class="contact">

@@ -1,3 +1,5 @@
+@media (min-width: 1400px){
+/*
 .features{
     display: grid;
 grid-template-columns: 41% 41%;
@@ -15,9 +17,23 @@ color: white;
     width:99%;
     color: white;
 }
-@media only screen and (max-width: 375px) {
+*/
+@media (max-width: 575.98px) { 
 
-/* Features */
+    .container{
+        text-align: center;
+        align-items: center;
+    }
+    #feature-image{
+        margin-bottom: 1rem;
+    }
+
+    .h5, h5{
+        margin-bottom: 1rem;
+    }
+
+    .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6
+    /* Features 
 
 .features{
     display: grid;
