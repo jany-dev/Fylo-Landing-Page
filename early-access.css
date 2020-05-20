@@ -1,6 +1,34 @@
+@media (max-width: 575.98px) { 
 
+.container.early-access{
+    color: white;
+}
+
+.container.early-access .card{
+border-radius: 2rem;
+}
+    #early-access-text{
+padding: 3.25rem 1.5rem 2.2rem 1.5rem;
+background-color:hsl(217, 28%, 15%); ;
+border: none;
+}
+
+#early-access-text h2{
+    margin-bottom: 1rem ;
+}
+
+.form-control{
+    border-radius: 2rem;
+    padding: 1.6rem;
+    margin:1.9rem 0  1.9rem 0;
+}
+
+.form-group .btn.btn-primary.btn-lg{
+    width: 100%;
+    padding: 1rem;
+}
     
-
+/*
     .early-access {
         background-color: hsl(217, 28%, 15%);
         color: white;
@@ -17,7 +45,7 @@
     }
     
     
-
+/*
     .early-access p{
         margin: 3% 6% 6% 6%;
         width: 65%;
@@ -53,7 +81,7 @@
         width: 169%;
         margin-left: 119px;
 }
-
+/*
 .fname {
     padding-left: 35px;
 }
@@ -78,7 +106,7 @@ display: flex;
 
     @media only screen and (max-width: 375px) {
 /*Early access*/
-
+/*
 .early-access{
     background-color: hsl(217, 28%, 15%);
     color: white;

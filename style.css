@@ -1,5 +1,25 @@
+body{
+    margin: 0;
+color: blue;
+text-align: left;
+background-color: #fff;
+}
+ 
 
-  @media (min-width: 1400px){
+h1, h2, h3, h4, h5{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+ p, button{
+        font-family:'Open Sans', sans-serif;
+        font-size: 16px;
+    }
+}
+
+ 
+ @media (min-width: 1400px){
   .jumbotron{
       padding: 0;
   }
@@ -21,6 +41,7 @@
 }
   
 @media (max-width: 575.98px){
+    
     .btn {
         z-index: 2;
         border-radius: 28px;
@@ -46,6 +67,11 @@
 
       h5{
           margin-top: 2%;
+      }
+
+      a{
+        color: hsl(176, 68%, 64%);
+   
       }
       
       
