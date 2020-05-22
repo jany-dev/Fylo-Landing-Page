@@ -3,6 +3,10 @@
    margin-top: 5rem;
    padding-top: 5rem;
 }
+
+.container.text-left .card{
+    box-shadow: 4px 7px 33px #000000;
+}
 .card-body{
     padding: 1.25rem 1.25rem 1.25rem 1.3rem;
     color: white;

@@ -4,42 +4,41 @@
     <meta charset="utf-8">
     <title>Flyo </title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="nav.css">
     <link rel="stylesheet" href="intro.css">
     <link rel="stylesheet" href="features.css">
     <link rel="stylesheet" href="stay-productive.css">
     <link rel="stylesheet" href="testimonials.css">
     <link rel="stylesheet" href="early-access.css">
-  
-    <!---   
-    <link rel="stylesheet" href="nav.css">
+    <link rel="stylesheet" href="footer.css">
+    <script src="https://kit.fontawesome.com/ee71e307ca.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway:wght@400;700&display=swap" rel="stylesheet">
     
     
-    
-    
-   
-    
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
--->
+    
+    
+
+
 <body>
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <nav class="navbar navbar-expand-md navbar-dark ">
         <a class="navbar-brand" href="#">
             <img src="fylo-assests/images/logo.svg">
         </a>
-
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
-            aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        
+<!-- Collapse button-->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1"
+            aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
 
-        <div class="collapse navbar-collapse">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent1">
 
-            <ul class="navbar-nav ml-auto">
+            <ul class="navbar-nav mr-auto mt-3">
                 <li><a class="nav-link" href="#">Features</a>
                 </li>
                 <li class="nav-item">
@@ -52,6 +51,7 @@
 
         </div>
     </nav>
+
     <div class="jumbotron mb-5 pb-5" class="mx-auto">
         <!---- <div class="container">-->
         <img src="fylo-assests/images/illustration-intro.png" class="intro-image" class="mx-auto">
@@ -111,12 +111,14 @@
                     Securely share files and folders with friends, family and colleagues for live collaboration. No
                     email
                     attachments required.</p>
-                <span><a href="#" id="text-success">See how Fylo works<img src="fylo-assests/images/icon-arrow.svg" a
-                            href="#" class="how-fylo-works-arrow"></a></span>
-            </div>
+                    <div class="stay-productive-link">
+                <a href="#" id="text-success">See how Fylo works<img src="fylo-assests/images/icon-arrow.svg" a
+                            href="#" class="how-fylo-works-arrow"></a>
+                        </div>
+                        </div>
         </div>
 
-<!-- Testimonials-->
+        <!-- Testimonials-->
         <div class="testimonials text-center">
             <div class="container text-left">
                 <div class="card">
@@ -133,7 +135,7 @@
                         </div>
                     </div>
                 </div>
-               
+
 
                 <div class="card">
                     <div class="card-body">
@@ -150,7 +152,7 @@
                     </div>
                 </div>
 
-                    
+
                 <div class="card">
                     <div class="card-body">
                         <p class="card-text">Fylo has improved our team productivity by an order of magnitude.
@@ -170,73 +172,146 @@
         </div>
 
 
-<!-- Early Access-->
-            <div class="container early-access rounded">
-                <div class="card">
-            <div class="card-body" id="early-access-text">
-                 <h2>Get early access today</h2>
-                 <p>It only takes a minute to sign up and our free starter tier is extremely generous.
-                     If you have any questions, our support team would be happy to help you</p>
-             
-     
-                     <form>
+        <!-- Early Access-->
+        <div class="container early-access">
+            <div class="card">
+                <div class="card-body" id="early-access-text">
+                    <div class="card-text">
+                        <h2>Get early access today</h2>
+                        <p>It only takes a minute to sign up and our free starter tier is extremely generous.
+                            If you have any questions, our support team would be happy to help you</p>
+
+                    </div>
+                    <form>
                         <div class="form-group">
-                          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="email@example.com" >
-                     <button type="submit" class="btn btn-primary btn-lg">Get Started For Free</button>
-                 </form>
-            
-             </div>
-         </div>
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp" placeholder="email@example.com">
+                            <button type="submit" class="btn btn-primary btn-lg">Get Started For Free</button>
+                    </form>
+
+                </div>
+            </div>
         </div>
     </div>
 
-    
-    <!-- Footer -->
-    <footer class="page-footer">
-    
-      <!-- Footer Links -->
-      <div class="container">
-    
-        <!-- Grid row -->
-        <div class="row">
-    
-          <!-- Grid column -->
-          <div class="col-md-3 mx-auto">
-    
-            <!-- Links -->
-          
-    <ul class="list-unstyled text-left">
-              <li>
-                <a href="#!">About</a>
-              </li>
-              <li>
-                <a href="#!">Links</a>
-              </li>
-              <li>
-                <a href="#!">Press</a>
-              </li>
-              <li>
-                <a href="#!">Blog</a>
-              </li>
-            </ul>
-    
-          </div>
 
 
-        <!---
+<!-- Footer -->
+<footer class="page-footer font-small text-left">
+    <img src="fylo-assests/images/logo.svg" class="logo">
+    <!-- Footer Links -->
+    <div class="container text-left text-md-left">
+  
+      <!-- Grid row -->
+      <div class="row">
+  
+        <!-- Grid column -->
+        <div class="col-md-3 mx-auto">
+  
+          <!-- Links -->
+          <ul class="list-unstyled">
+            <li class="footer-text">
+                <img src="fylo-assests/images/icon-location.svg" class="footer-icon">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua</p>
+            </li>
+        </div>
+            <div class="col-md-3 mx-auto">
+                <li class="footer-text">
+                    <img src="fylo-assests/images/icon-phone.svg" class="footer-icon">
+                    <p>+1-543-123-4567</p>
+                </li>
+            
+                <li class="footer-text">
+                    <img src="fylo-assests/images/icon-email.svg" class="footer-icon">
+                    <p>example@fylo.com</p>
+                </li>
+          </ul>
+  
+        </div>
+  
+        <!-- Grid column -->
+        <div class="footer-bottom-links col-md-3 mx-auto">
+  
+          <!-- Links -->
+  
+          <ul class="list-unstyled">
+            <li>
+              <a href="#!">About Us</a>
+            </li>
+            <li>
+              <a href="#!">Jobs</a>
+            </li>
+            <li>
+              <a href="#!">Press</a>
+            </li>
+            <li>
+              <a href="#!">Blog</a>
+            </li>
+          </ul>
+  
+        </div>
+
+  
+        <!-- Grid column -->
+        <div class="footer-bottom-links col-md-3 mx-auto">
+  
+          <!-- Links -->
+  
+          <ul class="list-unstyled">
+            <li>
+              <a href="#!">Contact Us</a>
+            </li>
+            <li>
+              <a href="#!">Terms</a>
+            </li>
+            <li>
+              <a href="#!">Privacy</a>
+            </li>
+            <li>
+          </ul>
+  
+        </div>
+
+<!-- Grid column -->
+<div class="col-md-12 py-5 white">
+    <div class="mb-5 flex-center text-center">
+
+      <!-- Facebook -->
+      <a class="fb-ic ">
+        <i class="fab fa-facebook-f fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+      </a>
+      <!-- Twitter -->
+      <a class="tw-ic">
+        <i class="fab fa-twitter fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+      </a>
+      <!--Instagram-->
+      <a class="ins-ic">
+        <i class="fab fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+      </a>
+    </div>
+  </div>
+  
+    </div>
+    <!-- Footer Links -->
+  
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">© 2020 Jany
+    </div>
+    <!-- Copyright -->
+  
+  </footer>
+  <!-- Footer -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
+</html>
 
 
-<ul class="footer-links">
-                <li><a href="#">About Us</li></a>
-                <li><a href="#">Links</li></a>
-                <li><a href="#">Press</li></a>
-                <li><a href="#">Blog</li></a>
-                <div class="footer-bottom-links">
-                    <li><a href="#"> Contact Us</a></li>
-                    <li><a href="#"> Terms</a></li>
-                    <li><a href="#"> Privacy</a></li>
-                </div>
-            </ul>
+    
+    <!---
+
 
     <div class="navbar">
         <div class="resonsive-nav">
@@ -253,81 +328,3 @@
     </div>
 
 
-   
-
-    <div class="stay-productive">
-        <img src="fylo-assests/images/illustration-stay-productive.png" class="stay-productive-image">
-        <div class="stay-productive-text">
-        <h2>Stay productive, wherever you are</h2>
-        <p>Never let location be an issue when accessing your files. Fylo has you covered for all of your file
-            storage needs.<br><br>
-            Securely share files and folders with friends, family and colleagues for live collaboration. No email
-            attachments required.</p>
-        <span><a href="#" class="how-fylo-works">See how Fylo works<img src="fylo-assests/images/icon-arrow.svg" a
-                    href="#" class="how-fylo-works-arrow"></a></span>
-    </div>
-    </div>
-
-   
-    <div class="early-access">
-       <div class="early-access-top">
-            <h2>Get early access today</h2>
-            <p>It only takes a minute to sign up and our free starter tier is extremely generous.
-                If you have any questions, our support team would be happy to help you</p>
-        
-
-       <div class="early-access-bottom"> 
-            <form>
-                <input type="text" class="fname" name="fname" placeholder="email@example.com">
-            </form>
-            <button><a href="#">Get Started For Free</a></button>
-        </div>
-    </div>
-    
-    <div class="footer">
-        <img src="fylo-assests/images/logo.svg" class="logo">
-        <div class="contact">
-            <div class="contact-1">
-                <img src="fylo-assests/images/icon-location.svg" class="footer-icon">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et dolore magna aliqua</p>
-            </div>
-            <div class="contact-2">
-                <img src="fylo-assests/images/icon-phone.svg" class="footer-icon">
-                <p>+1-543-123-4567</p>
-            </div>
-            <div class="contact-3">
-                <img src="fylo-assests/images/icon-email.svg" class="footer-icon">
-                <p>example@fylo.com</p>
-            </div>
-
-
-            <ul class="footer-links">
-                <li><a href="#">About Us</li></a>
-                <li><a href="#">Links</li></a>
-                <li><a href="#">Press</li></a>
-                <li><a href="#">Blog</li></a>
-                <div class="footer-bottom-links">
-                    <li><a href="#"> Contact Us</a></li>
-                    <li><a href="#"> Terms</a></li>
-                    <li><a href="#"> Privacy</a></li>
-                </div>
-            </ul>
-
-
-        </div>
-    </div>
-    <div class="social-media-icons">
-        <ul>
-            <li><i class="fa fa-facebook fa-border" aria-hidden="true"></i></a> </li>
-            <li><i class="fa fa-twitter" aria-hidden="true"></i></a> </li>
-            <li><i class="fa fa-instagram" aria-hidden="true"></i></a> </li>
-        </ul>
-    </div>
-
-    </div>
-    </div>
-    </div>
-</body>
-
-</html>

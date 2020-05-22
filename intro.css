@@ -1,9 +1,10 @@
-@media (min-width: 1400px){
+@media (min-width: 768px){
 
 .jumbotron{
     padding: 18% 0 0 0;
     text-align: center;
     color: white;
+    background-color: hsl(217, 28%, 15%);
 }
 .intro-image{
     width: 52%;
@@ -60,9 +61,10 @@
 /*Intro*/
 
 .jumbotron{
-        padding: 25% 0 0 0;
+        padding: 10% 0 0 0;
         text-align: center;
         color: white;
+        background-color: hsl(217, 28%, 15%);
     }
 
 .intro{

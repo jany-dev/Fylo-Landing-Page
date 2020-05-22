@@ -3,7 +3,7 @@
         width: 60%;
     }
 
-    
+
 @media (max-width: 575.98px) {
     .stay-productive{
         overflow: hidden;
@@ -26,10 +26,7 @@ width: 90%;
         cursor: pointer;
    }
 
-  .span{
-    color: hsl(176, 68%, 64%);
-   }
-
+  
    .how-fylo-works-arrow{
        height: 2rem;
    }

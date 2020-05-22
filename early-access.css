@@ -6,11 +6,14 @@
 
 .container.early-access .card{
 border-radius: 2rem;
+border:none;
+box-shadow: 4px 7px 33px #000000;
 }
     #early-access-text{
 padding: 3.25rem 1.5rem 2.2rem 1.5rem;
 background-color:hsl(217, 28%, 15%); ;
 border: none;
+border-radius: 0.5rem!important;
 }
 
 #early-access-text h2{
@@ -21,129 +24,14 @@ border: none;
     border-radius: 2rem;
     padding: 1.6rem;
     margin:1.9rem 0  1.9rem 0;
+    font-size: 0.65rem;
+    color: lightgray;
+    border:none;
 }
 
 .form-group .btn.btn-primary.btn-lg{
     width: 100%;
     padding: 1rem;
+    font-size: 1rem;
 }
     
-/*
-    .early-access {
-        background-color: hsl(217, 28%, 15%);
-        color: white;
-        margin: 11%;
-        border-radius: 3%;
-        border: none;
-        /* display: flex; */
-        /* align-items: center; */
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-        position: relative;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    
-    
-/*
-    .early-access p{
-        margin: 3% 6% 6% 6%;
-        width: 65%;
-    
-    }
-    .early-access h2{
-        padding-top: 2%;
-    }
-    
-    .early-access p{
-        margin: 0% 6% 6% 6%;
-    }
-    
-
-    .early-access button{
-        position: absolute;
-        width: 23%;
-        border-radius: 28px;
-        padding: 20px;
-        border: none;
-        margin-bottom: 8%;
-        right: 208px;
-    }
-    
-    input{
-        margin-left: 83%;
-        /* margin-left: 41%; */
-        width: 41%;
-        border-radius: 28px;
-        border: none;
-        padding: 20px;
-        display: flex;
-        width: 169%;
-        margin-left: 119px;
-}
-/*
-.fname {
-    padding-left: 35px;
-}
-
-
-.early-access-top{
-display: flex;
-    flex-direction: column;
-    align-items: center;
-
-}
-    .early-access-bottom{
-        display: flex;
-        margin-right: 11%;
-        margin-left: 11%;
-        margin-bottom: 5%;
-        align-items: center;
-        position: relative;
-        width: 100%;
-    }
-    
-
-    @media only screen and (max-width: 375px) {
-/*Early access*/
-/*
-.early-access{
-    background-color: hsl(217, 28%, 15%);
-    color: white;
-    margin: 5%;
-    border-radius: 3%;
-    border: none;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-.early-access h2{
-    padding-top: 8%;
-}
-
-.early-access p{
-    margin: 3% 6% 6% 6%;
-
-}
-
-.early-access button{
-    margin: 0px 25px 22px 25px;
-    width: 83%;
-    border-radius: 28px;
-    padding: 4%;
-    border: none;
-    margin-bottom: 8%;
-}
-
-input{
-width:225px;
-border-radius: 28px;
-border: none;
-margin-bottom: 5%;
-padding: 16px;
-}
-.fname{
-    padding-left: 35px;
-}
