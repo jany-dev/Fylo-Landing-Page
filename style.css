@@ -22,27 +22,28 @@ h1, h2, h3, h4, h5{
  .footer-icon{
 font-size: 15px; 
 }
- @media (min-width: 1400px){
-  .jumbotron{
-      padding: 0;
-  }
-
-  h1{
-    font-size: 42px;
-    margin-bottom: 1rem;
-  }
-
-
-  .btn {
-    z-index: 2;
-    border-radius: 28px;
-    font-weight: 700;
-    cursor: pointer;
-    border: none;
-    background-image: linear-gradient(90deg, hsl(176, 68%, 64%),hsl(198, 60%, 50%));
-    width: 66%;
-}
+ 
+@media (min-width: 768px){
+    .btn {
+        z-index: 2;
+        border-radius: 28px;
+        font-weight: 700;
+        cursor: pointer;
+        border: none;
+        background-image: linear-gradient(90deg, hsl(176, 68%, 64%),hsl(198, 60%, 50%));
+        width: 50%;
+    }
   
+    
+    .form-group .btn.btn-primary.btn-lg {
+        width: 50%;
+    }
+
+
+
+
+    
+
 @media (max-width: 575.98px){
     
     .btn {
@@ -76,8 +77,29 @@ font-size: 15px;
         color: hsl(176, 68%, 64%);
    
       }
+
+     
+      @media (min-width: 1400px){
+        .jumbotron{
+            padding: 0;
+        }
+      
+        h1{
+          font-size: 42px;
+          margin-bottom: 1rem;
+        }
       
       
+        .btn {
+          z-index: 2;
+          border-radius: 28px;
+          font-weight: 700;
+          cursor: pointer;
+          border: none;
+          background-image: linear-gradient(90deg, hsl(176, 68%, 64%),hsl(198, 60%, 50%));
+          width: 66%;
+      }
+        
   /*body{
     width: 100%;
     flex-direction: column;
