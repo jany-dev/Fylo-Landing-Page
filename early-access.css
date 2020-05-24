@@ -88,21 +88,27 @@
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {  
     .card-text.text-center{
-        padding:0 10rem 0 10rem;
+        padding:0 4rem 0 4rem;
     }
 
     .form-control{
-        margin-left: 5rem;
-        width: 73%;
+        margin-left: 0rem;
+        width: 100%;
         margin-right: 2rem;
 
     }
 
     .form-group .btn.btn-primary.btn-lg {
-        width: 32%;
-        margin-right: 4rem;
+        width: 40%;
+        margin-right: 2rem;
 }
 
 .container.early-access .card {
     box-shadow: 4px 7px 33px #000000;
+}
+
+.container.early-access.pt-md-5.pb-md-5.text-center{
+    padding-left: 8rem;
+    padding-right: 8rem;
+
 }
