@@ -2,6 +2,9 @@
     font-size: 67%;
 }
 
+.testimonials{
+    position: relative;
+}
 .testimonials.text-center .container.text-left .card .card-body p {
     letter-spacing: 0.05rem;
 }
@@ -40,8 +43,8 @@ p.card-text {
 
 .quote-icon{
     position: absolute;
-    left:8px;
-    top:64px;
+    left:10px;
+    top:17px;
 }
 /* .testimonials {
         margin-top: 5rem;
@@ -59,8 +62,8 @@ p.card-text {
   
     .quote-icon{
         position: absolute;
-        left:40px;
-        top:64px;
+        left:42px;
+        top:17px;
     }
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) { 
@@ -78,8 +81,8 @@ p.card-text {
     
     .quote-icon{
         position: absolute;
-        left:89px;
-        top:64px;
+        left:41px;
+        top:18px;
     }
 
  
