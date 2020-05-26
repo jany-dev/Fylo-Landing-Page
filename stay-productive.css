@@ -1,127 +1,93 @@
-
-    a #how-fylo-works{
-        font-family: 'Open Sans', sans-serif;
-        font-size: 16px;
-        color: hsl(176, 68%, 64%);
-        border-bottom: hsl(176, 68%, 64%) 1px solid;
-        text-decoration: none;
-        padding-bottom: 7px;
-        width: 55%;
-        /* justify-content: center; */
-        align-items: center;
-        display: flex;
-        cursor: pointer;
-   }
-
-  
-  
-
-.stay-productive{
+.stay-productive {
     line-height: 1.5rem;
-    color: white;   
-    margin-bottom: 10rem;
+    color: white;
+    background-color: hsl(218, 28%, 13%);
+    padding: 6rem 0 6rem 0
 }
 
-.stay-productive h2{
+.stay-productive h5, .stay-productive p {
     text-align: left;
-    margin: 6% 0% 2% 0%;
 }
 
-.stay-productive p{
-    text-align: left;
+.stay-productive h5 {
+    margin: 2rem 0 2rem 0;
+}
+
+.stay-productive p {
     width: 100%;
 }
 
-.stay-productive-link a#text-succes{
-    color: white;
-}
-
-.stay-productive-link{
-text-decoration: white;
-}
-.how-fylo-works{
-    font-family: 'Open Sans', sans-serif;
-    font-size: 16px;
+.stay-productive-link a {
     color: hsl(176, 68%, 64%);
     border-bottom: hsl(176, 68%, 64%) 1px solid;
-    text-decoration: none;
     padding-bottom: 7px;
-    width: 55%;
-    align-items: center;
-    display: flex;
-    cursor: pointer;
-    
 }
 
-
-
-.how-fylo-works-arrow{
-    width: 8%;
-    height: 8%;
+.how-fylo-works-arrow {
+    width: 2rem;
     padding-left: 11px;
     position: static;
 }
 
-
 /* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) {  
- 
-}
- 
+
+@media (min-width: 576px) {}
+
 /* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
-@media (min-width: 768px) {  
- .stay-productive .container-fluid.text-left.mt-5.pt-5.px-md-5{
-     display: inline-flex;
-     width: 100%;
-     align-items: center;
-}
 
-.img-fluid{
-    width: 63%;
-    height: 63%;
-}
-h5{
-    font-size: 1.5rem;
-}
- 
-/* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) { 
-    h5{
-        font-size: 2.5rem;
+@media (min-width: 768px) {
+    .stay-productive .container-fluid.text-left.mt-5.pt-5.px-md-5 {
+        display: inline-flex;
+        width: 100%;
+        align-items: center;
     }
-     
-}
- 
-/* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {  
-    .pl-md-5, .px-md-5 {
-        padding-left: 6rem;
+    .img-fluid {
+        width: 63%;
+        height: 63%;
     }
-    
-
-    .pr-md-5, .px-md-5 {
-        padding-right: 6rem;
+    h5 {
+        font-size: 1.5rem;
     }
-    
-.stay-productive-text h5{
-    width: 62%;
-    text-align: left;
-}
-
-@media (min-width: 1400px){
-    h5{
-        width: 51%;
+    .stay-productive {
+        padding: 0rem 0 6rem 0
     }
-    
-    .stay-productive-text{
-        width: 40%;
-        margin-left: 4rem;
+    .stay-productive-text {
+        margin-left: 3rem;
     }
-
-    .stay-productive p{
-        width: 97%;
-    }
-    .img-fluid{
-        width: 53%;
-    }
-
+    /* Large devices (desktops, 992px and up) */
+    @media (min-width: 992px) {
+        h5 {
+            font-size: 2.5rem;
+        }
+        .img-fluid {
+            width: 57%;
+        }
+        /* Extra large devices (large desktops, 1200px and up) */
+        @media (min-width: 1200px) {
+            .pl-md-5, .px-md-5 {
+                padding-left: 6rem;
+            }
+            .pr-md-5, .px-md-5 {
+                padding-right: 6rem;
+            }
+            .stay-productive-text h5 {
+                width: 62%;
+                text-align: left;
+            }
+            @media (min-width: 1400px) {
+                h5 {
+                    width: 51%;
+                }
+                .stay-productive {
+                    padding-bottom: 10rem;
+                }
+                .stay-productive-text {
+                    width: 40%;
+                    margin-left: 4rem;
+                }
+                .stay-productive p {
+                    width: 97%;
+                }
+                .img-fluid {
+                    width: 53%;
+                }

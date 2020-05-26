@@ -1,204 +1,93 @@
-body{
+body {
     margin: 0;
-color: white;
-text-align: left;
-background-color: #fff;
-background: linear-gradient(to bottom, hsl(217, 28%, 15%) 0%, hsl(218, 28%, 13%) 91%,hsl(216, 53%, 9%) 100%);
+    color: white;
+    background: hsl(218, 28%, 13%);
 }
- 
 
-h1, h2, h3, h4, h5{
+h1, h2, h3, h4, h5 {
     font-family: 'Raleway', sans-serif;
     font-size: 1.3rem;
     font-weight: 700;
 }
 
- p, button{
-        font-family:'Open Sans', sans-serif;
-        font-size: 16px;
-    }
+p, button {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
 }
 
- .footer-icon{
-font-size: 15px; 
+/*
+a{
+    color:  hsl(176, 68%, 64%);
+    text-decoration: none;
+        border-bottom: hsl(176, 68%, 64%) 1px solid;
+        
+        padding-bottom: 7px;
+        width: 55%;
+       /*/
+
+align-items: center;
+display: flex;
+cursor: pointer;
+*/
 }
- 
-@media (min-width: 768px){
+
+.footer-icon {
+    font-size: 15px;
+}
+
+@media (min-width: 768px) {
     .btn {
         z-index: 2;
         border-radius: 28px;
         font-weight: 700;
         cursor: pointer;
         border: none;
-        background-image: linear-gradient(90deg, hsl(176, 68%, 64%),hsl(198, 60%, 50%));
+        background-image: linear-gradient(90deg, hsl(176, 68%, 64%), hsl(198, 60%, 50%));
         width: 50%;
     }
-  
-    
     .form-group .btn.btn-primary.btn-lg {
         width: 50%;
     }
-
-
-
-
-    
-
-@media (max-width: 575.98px){
-    
-    .btn {
-        z-index: 2;
-        border-radius: 28px;
-        font-weight: 700;
-        cursor: pointer;
-        border: none;
-        background-image: linear-gradient(90deg, hsl(176, 68%, 64%),hsl(198, 60%, 50%));
-        width: 66%;
-    }
-
-    .btn-primary {
-        background-image: linear-gradient(90deg, hsl(176, 68%, 64%),hsl(198, 60%, 50%));
-        width: 66%;
-    }
-
-    h1{
-        font-size: 27px;
-      }
-    
-      p{
-          margin-bottom: 1.5rem;
-      }
-
-      h5{
-          margin-top: 2%;
-      }
-
-      a{
-        color: hsl(176, 68%, 64%);
-   
-      }
-
-     
-      @media (min-width: 1400px){
-        .jumbotron{
-            padding: 0;
-        }
-      
-        h1{
-          font-size: 42px;
-          margin-bottom: 1rem;
-        }
-      
-      
+    @media (max-width: 575.98px) {
         .btn {
-          z-index: 2;
-          border-radius: 28px;
-          font-weight: 700;
-          cursor: pointer;
-          border: none;
-          background-image: linear-gradient(90deg, hsl(176, 68%, 64%),hsl(198, 60%, 50%));
-          width: 66%;
-      }
-        
-  /*body{
-    width: 100%;
-    flex-direction: column;
-    align-items: center;
-    margin:0;
-    background: linear-gradient(to bottom, hsl(217, 28%, 15%) 0%, hsl(218, 28%, 13%) 91%,hsl(216, 53%, 9%) 100%);
-}
-   
-   h1, h2{
-        font-family: 'Raleway', sans-serif;
-    text-align: center;
-    line-height: 4rem;
-    
-}
-
-    p, button{
-        font-family:'Open Sans', sans-serif;
-        font-size: 16px;
-        text-align: center;
-    }
-    
-    button a{
-       text-decoration: none;
-       color: white;
-    }
-    
-    button{
-        z-index: 2;
-        /* height: 48%; 
-        padding: auto;
-        padding: 1%;
-        width: 23%;
-        border-radius: 28px;
-        font-weight: 700;
-        cursor: pointer;
-        border: none;
-        background-image: linear-gradient(90deg, hsl(176, 68%, 64%),hsl(198, 60%, 50%));
-    }
-    
-@media only screen and (max-width: 375px) {
-
-body{
-    width: 100%;
-    flex-direction: column;
-    align-items: center;
-    margin:0;
-    background: linear-gradient(to bottom, hsl(217, 28%, 15%) 0%, hsl(218, 28%, 13%) 91%,hsl(216, 53%, 9%) 100%);
-}
-
-h1{
-    font-size: 25px;
-}
-
-h2{
-    font-size: 20px;
-}
-
-p{
-    line-height: 1.5rem;
-    padding-bottom: 6%;  
-}
-
-h1, h2{
-    font-family: 'Raleway', sans-serif;
-    text-align: center;
-    line-height: 2rem;
-    margin: 6%;
-    margin: 6% 6% 2% 6%;
-}
-
-
-p,button{
-    font-family:'Open Sans', sans-serif;
-    font-size: 16px;
-    text-align: center;
-}
-
-button a{
-   text-decoration: none;
-   color: white;
-}
-
-button{
-    width: 78%;
-    padding: 5%;
-    border-radius: 28px;
-    font-weight: 700;
-    cursor: pointer;
-    border: none;
-    background-image: linear-gradient(90deg, hsl(176, 68%, 64%),hsl(198, 60%, 50%));
-}
-
-
-
-
-
-
-
-
-
-
-
+            z-index: 2;
+            border-radius: 28px;
+            font-weight: 700;
+            cursor: pointer;
+            border: none;
+            background-image: linear-gradient(90deg, hsl(176, 68%, 64%), hsl(198, 60%, 50%));
+            width: 66%;
+        }
+        .btn-primary {
+            background-image: linear-gradient(90deg, hsl(176, 68%, 64%), hsl(198, 60%, 50%));
+            width: 66%;
+        }
+        h1 {
+            font-size: 27px;
+        }
+        p {
+            margin-bottom: 1.5rem;
+        }
+        h5 {
+            margin-top: 2%;
+        }
+        a {
+            color: hsl(176, 68%, 64%);
+        }
+        @media (min-width: 1400px) {
+            .jumbotron {
+                padding: 0;
+            }
+            h1 {
+                font-size: 42px;
+                margin-bottom: 1rem;
+            }
+            .btn {
+                z-index: 2;
+                border-radius: 28px;
+                font-weight: 700;
+                cursor: pointer;
+                border: none;
+                background-image: linear-gradient(90deg, hsl(176, 68%, 64%), hsl(198, 60%, 50%));
+                width: 66%;
+            }

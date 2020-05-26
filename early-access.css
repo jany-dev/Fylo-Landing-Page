@@ -1,20 +1,26 @@
 .container.early-access {
     color: white;
+    background: rgb(24, 31, 42);
 }
+
 .container.early-access .card {
     border-radius: 2rem;
     border: none;
-    box-shadow: 4px 7px 33px #000000;
+    box-shadow: 2px 6px 6px rgba(0, 0, 0, 0.2);
+    background-color: transparent;
 }
+
 #early-access-text {
     padding: 3.25rem 1.5rem 2.2rem 1.5rem;
     background-color: hsl(217, 28%, 15%);
     border: none;
     border-radius: 0.5rem!important;
 }
+
 #early-access-text h2 {
     margin-bottom: 1rem;
 }
+
 .form-control {
     border-radius: 2rem;
     padding: 1.6rem;
@@ -23,6 +29,7 @@
     color: lightgray;
     border: none;
 }
+
 .form-group .btn.btn-primary.btn-lg {
     width: 100%;
     padding: 1rem;
@@ -30,11 +37,12 @@
 }
 
 /* Small devices (landscape phones, 576px and up) */
+
 @media (min-width: 576px) {
-   .form-control{
-       margin-left: 7.5%;
-       width: 85%;
-   }
+    .form-control {
+        margin-left: 7.5%;
+        width: 85%;
+    }
     .form-group .btn.btn-primary.btn-lg {
         width: 70%;
         padding: 1rem;
@@ -43,10 +51,10 @@
     .container.early-access .card {
         box-shadow: 4px 7px 33px #000000;
     }
-/* Medium devices (tablets, 768px and up)*/
+    /* Medium devices (tablets, 768px and up)*/
     @media (min-width: 768px) {
-        .card-text.text-center{
-            padding:0 3rem 0 3rem;
+        .card-text.text-center {
+            padding: 0 3rem 0 3rem;
         }
         #early-access-text {
             padding: 3.25rem 1.5rem 2.2rem 1.5rem;
@@ -54,61 +62,48 @@
             border: none;
             border-radius: 0.5rem!important;
         }
-
-
-
         /* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) {
-    .card-text.text-center{
-        padding:0 2rem 0 2rem;
-    }
-    .form-group{
-        display: flex;
-        justify-content: space-evenly;
-        margin: 0 2rem 0 2rem;
-        
-    }
-    .form-control{
-        margin-left: 2rem;
-        width: 73%;
-        margin-right: 2rem;
-
-    }
-     .form-group .btn.btn-primary.btn-lg {
-         width: 42%;
-         padding: 1rem;
-         font-size: 1rem;
-         height: 2%;
-         margin-top: 3%;
-         margin-right: 2rem;
-     }
- 
-
- 
-/* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {  
-    .card-text.text-center{
-        padding:0 4rem 0 4rem;
-    }
-
-    .form-control{
-        margin-left: 0rem;
-        width: 100%;
-        margin-right: 2rem;
-
-    }
-
-    .form-group .btn.btn-primary.btn-lg {
-        width: 40%;
-        margin-right: 2rem;
-}
-
-.container.early-access .card {
-    box-shadow: 4px 7px 33px #000000;
-}
-
-.container.early-access.pt-md-5.pb-md-5.text-center{
-    padding-left: 8rem;
-    padding-right: 8rem;
-
-}
+        @media (min-width: 992px) {
+            .card-text.text-center {
+                padding: 0 2rem 0 2rem;
+            }
+            .form-group {
+                display: flex;
+                justify-content: space-evenly;
+                margin: 0 2rem 0 2rem;
+            }
+            .form-control {
+                margin-left: 2rem;
+                width: 73%;
+                margin-right: 2rem;
+            }
+            .form-group .btn.btn-primary.btn-lg {
+                width: 42%;
+                padding: 1rem;
+                font-size: 1rem;
+                height: 2%;
+                margin-top: 3%;
+                margin-right: 2rem;
+            }
+            /* Extra large devices (large desktops, 1200px and up) */
+            @media (min-width: 1200px) {
+                .card-text.text-center {
+                    padding: 0 4rem 0 4rem;
+                }
+                .form-control {
+                    margin-left: 0rem;
+                    width: 100%;
+                    margin-right: 2rem;
+                }
+                .form-group .btn.btn-primary.btn-lg {
+                    width: 44%;
+                    margin-right: 0;
+                    font-size: 0.9rem;
+                }
+                .container.early-access .card {
+                    box-shadow: 4px 7px 33px #000000;
+                }
+                .container.early-access.pt-md-5.pb-md-5.text-center {
+                    padding-left: 8rem;
+                    padding-right: 8rem;
+                }

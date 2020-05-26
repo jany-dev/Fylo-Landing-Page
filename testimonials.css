@@ -2,9 +2,12 @@
     font-size: 67%;
 }
 
-.testimonials{
+.testimonials {
     position: relative;
+    background-color: hsl(218, 28%, 13%);
+    padding-bottom: 5rem;
 }
+
 .testimonials.text-center .container.text-left .card .card-body p {
     letter-spacing: 0.05rem;
 }
@@ -20,71 +23,69 @@
 .container-fluid.text-left .card {
     box-shadow: 4px 7px 33px #000000;
 }
+
 .card-body {
     padding: 1.25rem 1.25rem 1.25rem 1.3rem;
     color: white;
 }
+
 p.card-text {
     font-size: 14px;
     margin: 1rem 0 2rem 0.5rem;
 }
+
 .rounded-circle {
     width: 14%;
     height: 14%;
 }
+
 .container-fluid.text-left .card {
     /*margin-bottom: 3rem;*/
     background-color: hsl(219, 30%, 18%);
     border-color: hsl(219, 30%, 18%);
-
     margin-bottom: 13%;
     box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 0px 19px 0 rgba(0, 0, 0, 0.1);
 }
 
-.quote-icon{
+.quote-icon {
     position: absolute;
-    left:10px;
-    top:17px;
+    left: 10px;
+    top: 17px;
 }
+
 /* .testimonials {
         margin-top: 5rem;
         padding-top: 5rem;
     }*/
 
-
 /* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) {  
- 
-}
- 
-/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
-@media (min-width: 768px) {  
-  
-    .quote-icon{
-        position: absolute;
-        left:42px;
-        top:17px;
-    }
-/* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) { 
-    .testimonials.mt-5.pt-5 .container-fluid.text-left{
-        display: inline-flex;
-       }
-       
- 
-/* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {  
-    #xl-padding{
-        padding-left: 7px;
-        padding-right: 7px;
-    }
-    
-    .quote-icon{
-        position: absolute;
-        left:41px;
-        top:18px;
-    }
 
- 
- 
-   
+@media (min-width: 576px) {}
+
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+
+@media (min-width: 768px) {
+    .quote-icon {
+        position: absolute;
+        left: 42px;
+        top: 17px;
+    }
+    .container-fluid.text-left {
+        margin-right: 0;
+    }
+    /* Large devices (desktops, 992px and up) */
+    @media (min-width: 992px) {
+        .testimonials.pt-5 .container-fluid.text-left {
+            display: inline-flex;
+        }
+        /* Extra large devices (large desktops, 1200px and up) */
+        @media (min-width: 1200px) {
+            #xl-padding {
+                padding-left: 7px;
+                padding-right: 7px;
+            }
+            .quote-icon {
+                position: absolute;
+                left: 41px;
+                top: 18px;
+            }
