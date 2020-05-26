@@ -54,6 +54,7 @@
     .stay-productive-text {
         margin-left: 3rem;
     }
+}
     /* Large devices (desktops, 992px and up) */
     @media (min-width: 992px) {
         h5 {
@@ -62,6 +63,7 @@
         .img-fluid {
             width: 57%;
         }
+    }
         /* Extra large devices (large desktops, 1200px and up) */
         @media (min-width: 1200px) {
             .pl-md-5, .px-md-5 {
@@ -74,6 +76,7 @@
                 width: 62%;
                 text-align: left;
             }
+        }
             @media (min-width: 1400px) {
                 h5 {
                     width: 51%;
@@ -91,3 +94,4 @@
                 .img-fluid {
                     width: 53%;
                 }
+            }

@@ -15,21 +15,6 @@ p, button {
     font-size: 16px;
 }
 
-/*
-a{
-    color:  hsl(176, 68%, 64%);
-    text-decoration: none;
-        border-bottom: hsl(176, 68%, 64%) 1px solid;
-        
-        padding-bottom: 7px;
-        width: 55%;
-       /*/
-
-align-items: center;
-display: flex;
-cursor: pointer;
-*/
-}
 
 .footer-icon {
     font-size: 15px;
@@ -48,6 +33,7 @@ cursor: pointer;
     .form-group .btn.btn-primary.btn-lg {
         width: 50%;
     }
+}
     @media (max-width: 575.98px) {
         .btn {
             z-index: 2;
@@ -74,6 +60,7 @@ cursor: pointer;
         a {
             color: hsl(176, 68%, 64%);
         }
+    }
         @media (min-width: 1400px) {
             .jumbotron {
                 padding: 0;
@@ -91,3 +78,4 @@ cursor: pointer;
                 background-image: linear-gradient(90deg, hsl(176, 68%, 64%), hsl(198, 60%, 50%));
                 width: 66%;
             }
+        }

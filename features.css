@@ -17,6 +17,7 @@
     background-color: hsl(218, 28%, 13%);
 }
 
+
 /* Small devices (landscape phones, 576px and up) */
 
 @media (min-width: 576px) {}
@@ -35,12 +36,14 @@
     .features {
         padding: 0 2rem 0 2rem;
     }
+}
     /* Large devices (desktops, 992px and up) */
     @media (min-width: 992px) {
         .container-fluid {
             padding-left: 5rem;
             padding-right: 5rem;
         }
+    }
         /* Extra large devices (large desktops, 1200px and up) */
         @media (min-width: 1200px) {
             .feature-body h5 {
@@ -50,6 +53,7 @@
                 padding-left: 4rem;
                 padding-right: 4rem;
             }
+        }
             @media (min-width: 1400px) {
                 .container-fluid {
                     padding-left: 3rem;
@@ -66,3 +70,4 @@
                     padding-left: 8rem;
                     padding-right: 8rem;
                 }
+            }
