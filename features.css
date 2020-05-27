@@ -15,6 +15,8 @@
 
 .features {
     background-color: hsl(218, 28%, 13%);
+    padding-top:19rem;
+    margin-top: -18rem;
 }
 
 
@@ -35,7 +37,9 @@
     }
     .features {
         padding: 0 2rem 0 2rem;
+        margin-top: 0;
     }
+
 }
     /* Large devices (desktops, 992px and up) */
     @media (min-width: 992px) {
