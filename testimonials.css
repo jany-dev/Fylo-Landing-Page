@@ -5,7 +5,7 @@
 .testimonials {
     position: relative;
     background-color: hsl(218, 28%, 13%);
-    padding-bottom: 5rem;
+    padding: 0 1rem 5rem 1rem;
 }
 
 .testimonials.text-center .container.text-left .card .card-body p {
@@ -40,7 +40,6 @@ p.card-text {
 }
 
 .container-fluid.text-left .card {
-    /*margin-bottom: 3rem;*/
     background-color: hsl(219, 30%, 18%);
     border-color: hsl(219, 30%, 18%);
     margin-bottom: 13%;
@@ -49,18 +48,9 @@ p.card-text {
 
 .quote-icon {
     position: absolute;
-    left: 10px;
+    left: 26px;
     top: 17px;
 }
-
-/* .testimonials {
-        margin-top: 5rem;
-        padding-top: 5rem;
-    }*/
-
-/* Small devices (landscape phones, 576px and up) */
-
-@media (min-width: 576px) {}
 
 /* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
 
@@ -74,21 +64,25 @@ p.card-text {
         margin-right: 0;
     }
 }
-    /* Large devices (desktops, 992px and up) */
-    @media (min-width: 992px) {
-        .testimonials.pt-5 .container-fluid.text-left {
-            display: inline-flex;
-        }
+
+/* Large devices (desktops, 992px and up) */
+
+@media (min-width: 992px) {
+    .testimonials.pt-5 .container-fluid.text-left {
+        display: inline-flex;
     }
-        /* Extra large devices (large desktops, 1200px and up) */
-        @media (min-width: 1200px) {
-            #xl-padding {
-                padding-left: 7px;
-                padding-right: 7px;
-            }
-            .quote-icon {
-                position: absolute;
-                left: 41px;
-                top: 18px;
-            }
-        }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+
+@media (min-width: 1200px) {
+    #xl-padding {
+        padding-left: 7px;
+        padding-right: 7px;
+    }
+    .quote-icon {
+        position: absolute;
+        left: 41px;
+        top: 18px;
+    }
+}

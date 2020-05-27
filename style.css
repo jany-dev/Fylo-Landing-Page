@@ -15,7 +15,6 @@ p, button {
     font-size: 16px;
 }
 
-
 .footer-icon {
     font-size: 15px;
 }
@@ -34,48 +33,50 @@ p, button {
         width: 50%;
     }
 }
-    @media (max-width: 575.98px) {
-        .btn {
-            z-index: 2;
-            border-radius: 28px;
-            font-weight: 700;
-            cursor: pointer;
-            border: none;
-            background-image: linear-gradient(90deg, hsl(176, 68%, 64%), hsl(198, 60%, 50%));
-            width: 66%;
-        }
-        .btn-primary {
-            background-image: linear-gradient(90deg, hsl(176, 68%, 64%), hsl(198, 60%, 50%));
-            width: 66%;
-        }
-        h1 {
-            font-size: 27px;
-        }
-        p {
-            margin-bottom: 1.5rem;
-        }
-        h5 {
-            margin-top: 2%;
-        }
-        a {
-            color: hsl(176, 68%, 64%);
-        }
+
+@media (max-width: 575.98px) {
+    .btn {
+        z-index: 2;
+        border-radius: 28px;
+        font-weight: 700;
+        cursor: pointer;
+        border: none;
+        background-image: linear-gradient(90deg, hsl(176, 68%, 64%), hsl(198, 60%, 50%));
+        width: 66%;
     }
-        @media (min-width: 1400px) {
-            .jumbotron {
-                padding: 0;
-            }
-            h1 {
-                font-size: 42px;
-                margin-bottom: 1rem;
-            }
-            .btn {
-                z-index: 2;
-                border-radius: 28px;
-                font-weight: 700;
-                cursor: pointer;
-                border: none;
-                background-image: linear-gradient(90deg, hsl(176, 68%, 64%), hsl(198, 60%, 50%));
-                width: 66%;
-            }
-        }
+    .btn-primary {
+        background-image: linear-gradient(90deg, hsl(176, 68%, 64%), hsl(198, 60%, 50%));
+        width: 66%;
+    }
+    h1 {
+        font-size: 27px;
+    }
+    p {
+        margin-bottom: 1.5rem;
+    }
+    h5 {
+        margin-top: 2%;
+    }
+    a {
+        color: hsl(176, 68%, 64%);
+    }
+}
+
+@media (min-width: 1400px) {
+    .jumbotron {
+        padding: 0;
+    }
+    h1 {
+        font-size: 42px;
+        margin-bottom: 1rem;
+    }
+    .btn {
+        z-index: 2;
+        border-radius: 28px;
+        font-weight: 700;
+        cursor: pointer;
+        border: none;
+        background-image: linear-gradient(90deg, hsl(176, 68%, 64%), hsl(198, 60%, 50%));
+        width: 66%;
+    }
+}

@@ -1,5 +1,3 @@
-/*Intro*/
-
 .jumbotron {
     padding: 10% 0 0 0;
     text-align: center;
@@ -67,9 +65,6 @@
     width: 66%;
 }
 
-/* Small devices (landscape phones, 576px and up) */
-
-@media (min-width: 576px) {}
 
 /* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
 
@@ -105,61 +100,66 @@
         font-size: 1rem;
     }
 }
-    /* Large devices (desktops, 992px and up) */
-    @media (min-width: 992px) {
-        .jumbotron {
-            padding: 0 0 4.5rem 0;
-        }
-        .intro-text {
-            padding: 2rem 12rem 2rem 12rem;
-        }
-        .intro-text p {
-            padding: 0 4rem 0 4rem;
-        }
-        .intro-image {
-            margin-bottom: 4.5rem;
-            width: 50%;
-        }
-        .intro-curvy-image-desktop {
-            top: 35rem;
-        }
+
+/* Large devices (desktops, 992px and up) */
+
+@media (min-width: 992px) {
+    .jumbotron {
+        padding: 0 0 4.5rem 0;
     }
-    /* Extra large devices (large desktops, 1200px and up) */
-    @media (min-width: 1200px) {
-        .intro-curvy-image-desktop {
-            top: 73%;
-        }
-        .intro-text {
-            padding: 2rem 16.5rem 2rem 16.5rem;
-        }
-        .btn {
-            width: 37%;
-        }
+    .intro-text {
+        padding: 2rem 12rem 2rem 12rem;
     }
-    @media (min-width: 1400px) {
-        .jumbotron {
-            padding: 9rem 0 10rem 0;
-        }
-        .intro-image {
-            width: 50rem;
-        }
-        .intro-text h1 {
-            font-size: 2.5rem;
-            padding: 0 2rem 1.5rem 2rem;
-            margin-bottom: 2srem;
-            line-height: 3.5rem;
-        }
-        .intro-text {
-            padding: 2rem 16rem 1rem 16rem;
-        }
-        .intro-text p {
-            padding: 0 13.5rem 0 13.5rem;
-            margin-bottom: 2rem;
-        }
-        .intro-curvy-image-desktop {
-            top: 56rem;
-        }
-        .btn {
-            width: 48%;
-        }
+    .intro-text p {
+        padding: 0 4rem 0 4rem;
     }
+    .intro-image {
+        margin: 1rem 0 4.5rem 0;
+        width: 50%;
+    }
+    .intro-curvy-image-desktop {
+        top: 41rem;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+
+@media (min-width: 1200px) {
+    .intro-curvy-image-desktop {
+        top: 73%;
+    }
+    .intro-text {
+        padding: 2rem 16.5rem 2rem 16.5rem;
+    }
+    .btn {
+        width: 37%;
+    }
+}
+
+@media (min-width: 1400px) {
+    .jumbotron {
+        padding: 9rem 0 10rem 0;
+    }
+    .intro-image {
+        width: 50rem;
+    }
+    .intro-text h1 {
+        font-size: 2.5rem;
+        padding: 0 2rem 1.5rem 2rem;
+        margin-bottom: 2srem;
+        line-height: 3.5rem;
+    }
+    .intro-text {
+        padding: 2rem 16rem 1rem 16rem;
+    }
+    .intro-text p {
+        padding: 0 13.5rem 0 13.5rem;
+        margin-bottom: 2rem;
+    }
+    .intro-curvy-image-desktop {
+        top: 64rem;
+    }
+    .btn {
+        width: 48%;
+    }
+}

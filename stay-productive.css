@@ -2,7 +2,7 @@
     line-height: 1.5rem;
     color: white;
     background-color: hsl(218, 28%, 13%);
-    padding: 6rem 0 6rem 0
+    padding: 1rem 1rem 10rem 1rem;
 }
 
 .stay-productive h5, .stay-productive p {
@@ -21,17 +21,16 @@
     color: hsl(176, 68%, 64%);
     border-bottom: hsl(176, 68%, 64%) 1px solid;
     padding-bottom: 7px;
+    cursor: pointer;
 }
 
 .how-fylo-works-arrow {
     width: 2rem;
     padding-left: 11px;
     position: static;
+    cursor: pointer;
 }
 
-/* Small devices (landscape phones, 576px and up) */
-
-@media (min-width: 576px) {}
 
 /* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
 
@@ -55,43 +54,48 @@
         margin-left: 3rem;
     }
 }
-    /* Large devices (desktops, 992px and up) */
-    @media (min-width: 992px) {
-        h5 {
-            font-size: 2.5rem;
-        }
-        .img-fluid {
-            width: 57%;
-        }
+
+/* Large devices (desktops, 992px and up) */
+
+@media (min-width: 992px) {
+    h5 {
+        font-size: 2.5rem;
     }
-        /* Extra large devices (large desktops, 1200px and up) */
-        @media (min-width: 1200px) {
-            .pl-md-5, .px-md-5 {
-                padding-left: 6rem;
-            }
-            .pr-md-5, .px-md-5 {
-                padding-right: 6rem;
-            }
-            .stay-productive-text h5 {
-                width: 62%;
-                text-align: left;
-            }
-        }
-            @media (min-width: 1400px) {
-                h5 {
-                    width: 51%;
-                }
-                .stay-productive {
-                    padding-bottom: 10rem;
-                }
-                .stay-productive-text {
-                    width: 40%;
-                    margin-left: 4rem;
-                }
-                .stay-productive p {
-                    width: 97%;
-                }
-                .img-fluid {
-                    width: 53%;
-                }
-            }
+    .img-fluid {
+        width: 57%;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+
+@media (min-width: 1200px) {
+    .pl-md-5, .px-md-5 {
+        padding-left: 6rem;
+    }
+    .pr-md-5, .px-md-5 {
+        padding-right: 6rem;
+    }
+    .stay-productive-text h5 {
+        width: 62%;
+        text-align: left;
+    }
+}
+
+@media (min-width: 1400px) {
+    h5 {
+        width: 51%;
+    }
+    .stay-productive {
+        padding-bottom: 10rem;
+    }
+    .stay-productive-text {
+        width: 40%;
+        margin-left: 4rem;
+    }
+    .stay-productive p {
+        width: 97%;
+    }
+    .img-fluid {
+        width: 53%;
+    }
+}

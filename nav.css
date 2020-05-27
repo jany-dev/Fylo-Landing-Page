@@ -10,7 +10,15 @@
 .navbar-dark .navbar-nav .nav-link {
   color: white;
   padding-top: 1rem;
-  font-family: 'Open Sans', sans-serif;
+  cursor: pointer;
+}
+
+li.nav-item {
+  padding-left: 3rem;
+}
+
+li.nav-item:hover {
+  background-color: rgb(69, 183, 209);
 }
 
 a .nav-link {
@@ -26,8 +34,11 @@ nav.navbar-nav.mr-auto.mt-3 .nav-link a {
   border-bottom: transparent;
 }
 
-@media (min-width: 768px){
-.navbar-expand-md .navbar-collapse {
-  justify-content: flex-end;
+@media (min-width: 768px) {
+  .navbar-expand-md .navbar-collapse {
+    justify-content: flex-end;
+  }
+  li.nav-item:hover {
+    background-color: transparent;
+  }
 }
-  

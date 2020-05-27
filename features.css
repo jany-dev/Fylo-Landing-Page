@@ -15,14 +15,11 @@
 
 .features {
     background-color: hsl(218, 28%, 13%);
-    padding-top:19rem;
+    padding: 19rem 1rem 0 1rem;
     margin-top: -18rem;
 }
 
 
-/* Small devices (landscape phones, 576px and up) */
-
-@media (min-width: 576px) {}
 
 /* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
 
@@ -39,39 +36,43 @@
         padding: 0 2rem 0 2rem;
         margin-top: 0;
     }
-
 }
-    /* Large devices (desktops, 992px and up) */
-    @media (min-width: 992px) {
-        .container-fluid {
-            padding-left: 5rem;
-            padding-right: 5rem;
-        }
+
+/* Large devices (desktops, 992px and up) */
+
+@media (min-width: 992px) {
+    .container-fluid {
+        padding-left: 5rem;
+        padding-right: 5rem;
     }
-        /* Extra large devices (large desktops, 1200px and up) */
-        @media (min-width: 1200px) {
-            .feature-body h5 {
-                width: 100%;
-            }
-            .feature-text p {
-                padding-left: 4rem;
-                padding-right: 4rem;
-            }
-        }
-            @media (min-width: 1400px) {
-                .container-fluid {
-                    padding-left: 3rem;
-                    padding-right: 3rem;
-                }
-                .features {
-                    padding-left: 6.5rem;
-                    padding-right: 6.5rem;
-                }
-                .feature-text h5 {
-                    width: 100%;
-                }
-                .px-md-5 {
-                    padding-left: 8rem;
-                    padding-right: 8rem;
-                }
-            }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+
+@media (min-width: 1200px) {
+    .feature-body h5 {
+        width: 100%;
+    }
+    .feature-text p {
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
+}
+
+@media (min-width: 1400px) {
+    .container-fluid {
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+    .features {
+        padding-left: 6.5rem;
+        padding-right: 6.5rem;
+    }
+    .feature-text h5 {
+        width: 100%;
+    }
+    .px-md-5 {
+        padding-left: 8rem;
+        padding-right: 8rem;
+    }
+}
