@@ -1,116 +1,44 @@
-.navbar-toggler.collapsed{
-  background-color:rgb(69,183,209) ;
+.navbar-toggler.collapsed {
+  background-color: rgb(69, 183, 209);
   cursor: pointer;
 }
-.navbar-toggler{
-  background-color:rgb(69,183,209) ;
+
+.navbar-toggler {
+  background-color: rgb(69, 183, 209);
 }
 
-.navbar-dark .navbar-nav .nav-link{
+.navbar-dark .navbar-nav .nav-link {
   color: white;
   padding-top: 1rem;
-  font-family: 'Open Sans', sans-serif;
-}
-
-.navbar-dark .navbar-nav .nav-link ul li a:hover{
-  color: red;
-  background-color: blue;
-}
-
-/*
-.nav{
-  display: inline-block;
-}
-.logo {
-  line-height: 60px;
-  padding: 35px 0 0 30px;
-  display: inline-block;
-}
-
-.responsive_nav {
-  width: 100%;
-  padding-bottom: 25px;
-}
-label {
-  display: inline-block;
   cursor: pointer;
-  padding: 0 30px 0 0;
-  font-size: 35px;
-  position: absolute;
-  right: 20px;
-  top: 35px;
-  color: white;
 }
-.nav_links {
-  text-align: center;
-  line-height: 55px;
+
+li.nav-item {
+  padding-left: 3rem;
+}
+
+li.nav-item:hover {
+  background-color: rgb(69, 183, 209);
+}
+
+a .nav-link {
   width: 100%;
-  padding: 23px 0 30px 0;
-  display: none;
-  background-image: linear-gradient(90deg, hsl(176, 68%, 64%),hsl(198, 60%, 50%));
-  position: relative;
-  font-family:'Open Sans', sans-serif;
-    font-size: 16px;
-    cursor: pointer;
 }
 
-.nav_links li a {
-  text-align: center;
-  align-items: center;
-  margin: 0 0 0 0;
-  color: white;
-  font-weight: 400;
-  font-size: 16px;
-  text-decoration: none;
+.navbar {
+  align-items: baseline;
+  background-color: hsl(217, 28%, 15%);
 }
 
-.nav_links li a:hover{
-  position: relative; 
+nav.navbar-nav.mr-auto.mt-3 .nav-link a {
+  border-bottom: transparent;
 }
-#toggle {
-  display: none;
-  border: black 1px solid;
-}
-#toggle:checked+.nav_links {
-  display: block;
 
-/*Nav
-.navbar{
-    align-items: center;
-    display: flex;
-    width: 100%;
-    height: auto;
-    background-color:hsl(217, 28%, 15%) ;
+@media (min-width: 768px) {
+  .navbar-expand-md .navbar-collapse {
+    justify-content: flex-end;
   }
-
-  .nav_links{
-      /*width: 100%;
-        text-align: center;
-        line-height: 55px;
-        width: 100%;
-        height: 459px;
-        padding: 23px 0 30px 0;
-        display: none;
-        background-color: hsl(256, 26%, 20%);
-        position: relative;
+  li.nav-item:hover {
+    background-color: transparent;
   }
-
-.nav_links li{ 
-  list-style-type: none;
-  padding-right: 5%;
-  letter-spacing: 0.5px;
-  font-family:'Open Sans', sans-serif;
-    font-size: 16px;
-    color:whiteS;
-    
-    
-}
-
-.nav_links li a {
-  color:white;
-  text-decoration: none;
-}
-
-.logo{
-    height: 40px;
 }
